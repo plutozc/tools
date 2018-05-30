@@ -9,8 +9,11 @@
         <module name="tools" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="tools" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="tools" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="DEPRECATION" value="false" />
   </component>
 </project>
